@@ -1,0 +1,18 @@
+# Verwende ein offizielles Python-Image als Basis
+FROM python:3.8-slim
+
+# Setze das Arbeitsverzeichnis im Container
+WORKDIR /usr/src/app
+
+# Kopiere die Requirements-Datei in den Container
+COPY requirements.txt ./
+
+# Installiere alle benötigten Pakete
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Kopiere den Rest des Codes in den Container
+COPY . .
+
+# Befehl, der ausgeführt wird, wenn der Container startet
+CMD ["python", "./your-model-script.py"]
+
