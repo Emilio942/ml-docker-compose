@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 
 # Installiere alle benötigten Pakete
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip 
 
 # Kopiere den Rest des Codes in den Container
 COPY . .
