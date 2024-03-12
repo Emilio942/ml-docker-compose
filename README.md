@@ -1,5 +1,5 @@
 Der Docker Compose KI-Tanz
-
+![Alt text](<DALL·E 2024-03-12 09.41.22 - Create an artistic, hand-painted illustration showing Docker Compose managing multiple containers, each containing different machine learning models, .webp>)
 Im digitalen Orchester, so weit und breit,
 Docker Compose dirigiert, mit großer Heiterkeit.
 "Ein Container hier, ein Modell dort,"
